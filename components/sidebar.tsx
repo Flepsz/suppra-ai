@@ -64,7 +64,7 @@ const routes = [
 export default function Sidebar() {
 	const pathname = usePathname();
 	return (
-		<div className="flex flex-col h-full py-4 space-y-4 bg-[#111827] text-white">
+		<div className="flex flex-col h-full py-4 space-y-4 bg-[#080c14] text-white">
 			<div className="flex-1 px-3 py-2">
 				<Link href="/dashboard" className="flex items-center pl-3 mb-10">
 					<div className="relative mx-auto h-9 w-28">
